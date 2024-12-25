@@ -19,3 +19,19 @@ a{
 body{
     overflow: hidden;
 }
+
+/* Sidebar */
+.sidebar{
+    /* position: fixed; */
+    height: 100vh;
+    width: 25%;
+    margin-right: 0.1rem;
+}
+
+.sidebar .logo, .sidebar .home, .sidebar .search{
+    display: flex;
+}
+
+.sidebar h1{
+    font-size: 1.7rem;
+}
