@@ -35,3 +35,10 @@ body{
 .sidebar h1{
     font-size: 1.7rem;
 }
+
+
+/* Side bar - Upper Div */
+.upper-div{
+    height: 7.5rem;
+    padding: 20px;
+}
