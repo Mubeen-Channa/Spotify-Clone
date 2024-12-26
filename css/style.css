@@ -42,3 +42,49 @@ body{
     height: 7.5rem;
     padding: 20px;
 }
+
+.upper-div .logo img{
+    width: 25px;
+    height: 25px;
+}
+
+.upper-div .logo{
+    margin-bottom: 20px;
+}
+
+.upper-div .logo h1{
+    margin: -2px 0 0 5px;
+    font-size: 25px;
+}
+
+.search .fa-magnifying-glass, .home .fa-home{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.hm-srch{
+    font-size: 12px;
+    margin: 26px;
+}
+
+.search, .home{
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.search h2{
+    margin-left: 2px;
+}
+
+.search:hover, .home:hover{
+    opacity: 1;
+}
+
+.upper-div, .middle-div, .last-div{
+    background-color: #151515;
+    color: white;
+    margin: 8px;
+    border-radius: 10px;
+}
