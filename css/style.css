@@ -194,3 +194,15 @@ body{
 .last-div .btn {
     margin: 11px 0 0 -5px;
 }
+
+
+/* Landing */
+.landing{
+    background: linear-gradient(#282828, black);
+    height: 100vh;
+    flex: 1; /*Flex 1 means Aqupy all remaining space*/
+    margin: 8px 8px 8px 0px;
+    border-radius: 10px;
+    color: white;
+    overflow: auto;
+}
