@@ -249,3 +249,42 @@ body{
     width: 6rem;
     border-radius: 30px;
 }
+
+/* Landing - Main Content */
+.main-content .popular-artist, 
+.main-content .popular-albums,
+.main-content .popular-radio{
+    margin: 0px 10px 7rem;
+}
+
+.main-content .popular-artist{
+    margin-bottom: 4rem;
+}
+
+.popular-artist .showAll,
+.popular-albums .showAll,
+.popular-radio  .showAll{    
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px;
+}
+
+.showAll p{
+    opacity: 0.7;
+}
+
+.popular-artist h2{
+    /* font-size: 22px; */
+}
+
+.main-content .popular-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content .popular-artist .popular-section div div{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border-radius: 50%;
+}
